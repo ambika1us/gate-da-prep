@@ -19,7 +19,6 @@ def render_auth() -> None:
     with tabs[2]:
         _reset()
     with st.expander("Demo accounts"):
-        st.write(f"Admin: `{settings.admin_username}` / `{settings.admin_password}`")
         st.write("Student: `student` / `Student@123`")
 
 
