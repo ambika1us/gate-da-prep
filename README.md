@@ -57,11 +57,6 @@ python scripts/reset_and_create.py "DELETE ALL"
 
 If MongoDB is unreachable, the app falls back to an in-memory MongoDB-compatible store.
 
-## Demo accounts
-
-- Admin: `admin` / `Admin@123`
-- Student: `student` / `Student@123` (created when `SEED_DEMO=true`)
-
 ## Configuration
 
 | Variable | Purpose |
